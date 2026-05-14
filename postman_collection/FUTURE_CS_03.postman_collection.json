@@ -1,0 +1,43 @@
+{
+  "info": {
+    "_postman_id": "16a05b4d-f559-4b20-8804-473e2c2e3831",
+    "name": "FUTURE_CS_03",
+    "description": "API Security Risk Analysis for Future Interns Internship Task 3",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "54690702"
+  },
+  "item": [
+    {
+      "name": "User Endpoint Test",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "free_user_3DjAm3p25JtaZtKDbOVPYpSAkwp",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "https://reqres.in/api/users?page=1",
+          "protocol": "https",
+          "host": [
+            "reqres",
+            "in"
+          ],
+          "path": [
+            "api",
+            "users"
+          ],
+          "query": [
+            {
+              "key": "page",
+              "value": "1"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
